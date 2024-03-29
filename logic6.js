@@ -88,11 +88,24 @@
 // ABC
 // ABC
 
-const arr = ["A", "B", "C"];
+// const arr = ["A", "B", "C"];
+// for (let i = 0; i < 3; i++) {
+//   let line = "";
+//   for (let j = 0; j < 3; j++) {
+//     line += arr[j] + " ";
+//   }
+//   console.log(line);
+// }
+
+let arr = ["A", "B", "C", "D", "E", "F", "G", "H", "I"];
+
+var count = 0;
 for (let i = 0; i < 3; i++) {
   let line = "";
+
   for (let j = 0; j < 3; j++) {
-    line += arr[j] + " ";
+    line += arr[count] + " ";
+    count++;
   }
   console.log(line);
 }
