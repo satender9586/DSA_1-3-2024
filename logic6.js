@@ -75,11 +75,24 @@
 // BBB
 // CCC
 
+// const arr = ["A", "B", "C"];
+// for (let i = 0; i < 3; i++) {
+//   let line = "";
+//   for (let j = 0; j < 3; j++) {
+//     line += arr[i] + " ";
+//   }
+//   console.log(line);
+// }
+
+// ABC
+// ABC
+// ABC
+
 const arr = ["A", "B", "C"];
 for (let i = 0; i < 3; i++) {
   let line = "";
   for (let j = 0; j < 3; j++) {
-    line += arr[i] + " ";
+    line += arr[j] + " ";
   }
   console.log(line);
 }
