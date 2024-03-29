@@ -97,15 +97,74 @@
 //   console.log(line);
 // }
 
-let arr = ["A", "B", "C", "D", "E", "F", "G", "H", "I"];
+// let arr = ["A", "B", "C", "D", "E", "F", "G", "H", "I"];
 
-var count = 0;
-for (let i = 0; i < 3; i++) {
-  let line = "";
+// var count = 0;
+// for (let i = 0; i < 3; i++) {
+//   let line = "";
 
-  for (let j = 0; j < 3; j++) {
-    line += arr[count] + " ";
-    count++;
+//   for (let j = 0; j < 3; j++) {
+//     line += arr[count] + " ";
+//     count++;
+//   }
+//   console.log(line);
+// }
+
+// A B C
+// D E F
+// G H I
+
+// let arr = ["A", "B", "C", "D", "E", "F", "G", "H", "I"];
+
+// var count = 0;
+// for (let i = 0; i < 3; i++) {
+//   let line = "";
+
+//   for (let j = 0; j < 3; j++) {
+//     line += arr[count] + " ";
+//     count++;
+//   }
+//   console.log(line);
+// }
+
+// A
+// A B
+// A B C
+
+// let arr = ["A", "B", "C", "D"];
+
+// for (let i = 0; i < 3; i++) {
+//   let line = "";
+
+//   for (let j = 0; j <= i; j++) {
+//     line += arr[j] + " ";
+//   }
+//   console.log(line);
+// }
+
+// A
+// B C
+// D E F
+
+// let arr = ["A", "B", "C", "D", "E", "F", "G", "H", "I"];
+
+// var count = 0;
+// for (let i = 0; i < 3; i++) {
+//   let line = "";
+
+//   for (let j = 0; j <= i; j++) {
+//     line += arr[count] + " ";
+//     count++;
+//   }
+//   console.log(line);
+// }
+
+let arr = ["A", "B", "C", "D"];
+
+for (let i = 4; i >= 0; i--) {
+  let space = "";
+  for (let j = 3; j >= i; j--) {
+    space += arr[j] + " ";
   }
-  console.log(line);
+  console.log(space);
 }
