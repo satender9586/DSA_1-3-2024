@@ -159,12 +159,19 @@
 //   console.log(line);
 // }
 
-let arr = ["A", "B", "C", "D"];
+// D
+// D C
+// D C B
+// D C B A
 
-for (let i = 4; i >= 0; i--) {
-  let space = "";
-  for (let j = 3; j >= i; j--) {
-    space += arr[j] + " ";
-  }
-  console.log(space);
-}
+// let arr = ["A", "B", "C", "D"];
+
+// for (let i = 4; i >= 0; i--) {
+//   let space = "";
+//   for (let j = 3; j >= i; j--) {
+//     space += arr[j] + " ";
+//   }
+//   console.log(space);
+// }
+
+
