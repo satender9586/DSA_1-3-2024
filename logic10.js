@@ -12,7 +12,7 @@ function checkSameString(str1, str2) {
   for (let char of str2) {
     if (!obj[char]) {
       return false;
-    }
+    } 
     obj[char]--;
   }
 
