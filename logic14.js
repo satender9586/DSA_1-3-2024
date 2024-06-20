@@ -9,7 +9,7 @@
 // 2
 // 1
 
-let values = 123456789;
+let values = 12345678;
 let reminder = 0;
 
 while (values > 0) {
